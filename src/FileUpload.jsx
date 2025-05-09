@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import * as pdfjsLib from 'pdfjs-dist';
 
-function PdfToJsonConverter() {
+function FileUpload() {
   const [jsonData, setJsonData] = useState(null);
 
   // Initialize PDF.js worker
@@ -60,4 +60,4 @@ function PdfToJsonConverter() {
   );
 }
 
-export default PdfToJsonConverter;
+export default FileUpload;
