@@ -55,7 +55,7 @@ function FileUpload() {
         type="file" 
         accept=".pdf" 
         onChange={handleFileUpload}
-        className="mb-4 block w-full text-sm text-gray-500
+        className="mb-4 block w-full text-sm text-gray-500 border-2 border-black
           file:mr-4 file:py-2 file:px-4
           file:rounded-md file:border-0
           file:text-sm file:font-semibold
@@ -75,7 +75,7 @@ function FileUpload() {
             </button>
           </div>
           <div className="border rounded-md p-4 bg-gray-50">
-            <pre className="max-h-96 overflow-auto p-2 bg-white border rounded text-sm">
+            <pre className="max-h-96 overflow-auto p-2 bg-white border rounded text-sm font-serif">
               {jsonData}
             </pre>
           </div>
