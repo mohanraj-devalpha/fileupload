@@ -1,5 +1,5 @@
 // src/App.jsx
-import FileUpload from './fileUpload';
+import {FileUpload} from './FileUpload.jsx';
 
 function App() {
   return (
